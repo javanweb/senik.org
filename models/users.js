@@ -1,0 +1,24 @@
+
+const knex = require('../db/knex');
+
+module.exports = {
+  getAll() {
+    return knex('users');
+  },
+
+  getById(id) {
+    return knex('users').where('id', id).first();
+  },
+
+  create(user) {
+    return knex('users').insert(user, '*');
+  },
+
+  update(id, user) {
+    return knex('users').where('id', id).update(user, '*');
+  },
+
+  delete(id) {
+    return knex('users').where('id', id).del();
+  }
+};

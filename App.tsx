@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { Header } from './components/Header';
 import Hero from './components/Hero';
@@ -12,8 +13,7 @@ import Dashboard from './dashbord';
 import Login from './components/Login';
 import Registration from './components/Registration';
 import OtpVerification from './components/OtpVerification';
-import { siteContent as initialSiteContent } from './siteData';
-import type { SiteContent, NavLink, Sublink } from './siteData';
+import { SiteContent, NavLink, Sublink } from './types';
 import ImageSlider from './components/ImageSlider';
 import PageView from './components/PageView';
 import CtaLogin from './components/CtaLogin';
@@ -92,24 +92,54 @@ const App: React.FC = () => {
   const [currentPage, setCurrentPage] = useState<NavLink | Sublink | null>(null);
   const [registrationData, setRegistrationData] = useState<{ mobile: string } | null>(null);
 
-  // Effect for initial content loading from localStorage
+  // Effect for initial content loading
   useEffect(() => {
-    let contentToLoad: SiteContent;
-    const savedContent = localStorage.getItem('siteContent');
-    if (savedContent) {
+    const fetchSiteContent = async () => {
       try {
-        const parsedContent = JSON.parse(savedContent);
-        const defaultsCopy = JSON.parse(JSON.stringify(initialSiteContent));
-        contentToLoad = mergeDeep(defaultsCopy, parsedContent) as SiteContent;
+        const response = await fetch('http://localhost:3001/api/sites/1/full');
+        if (!response.ok) {
+          throw new Error('Failed to fetch site content');
+        }
+        const dbContent = await response.json();
+        
+        // The data from the backend is now the source of truth.
+        // We can still use localStorage to persist user edits from the dashboard.
+        let contentToLoad: SiteContent;
+        const savedContent = localStorage.getItem('siteContent');
+
+        if (savedContent) {
+          try {
+            const parsedContent = JSON.parse(savedContent);
+            // We merge the content from DB with the locally saved content.
+            // This allows user edits to be preserved on refresh, but it might get complex.
+            // A simpler approach for now is to prioritize DB content on initial load.
+            contentToLoad = mergeDeep(dbContent, parsedContent) as SiteContent;
+
+          } catch (error) {
+            console.error("Could not parse site content from localStorage, falling back to DB data.", error);
+            contentToLoad = dbContent;
+          }
+        } else {
+          contentToLoad = dbContent;
+        }
+
+        setSiteContent(contentToLoad);
+        localStorage.setItem('siteContent', JSON.stringify(contentToLoad));
+
       } catch (error) {
-        console.error("Could not parse site content from localStorage, falling back to local data.", error);
-        contentToLoad = initialSiteContent;
+        console.error("Error fetching site content:", error);
+        // Fallback to local storage if API fails
+        const savedContent = localStorage.getItem('siteContent');
+        if (savedContent) {
+          setSiteContent(JSON.parse(savedContent));
+        } else {
+            // Maybe show an error page if API and local storage fail
+            console.error("No site content available.");
+        }
       }
-    } else {
-      contentToLoad = initialSiteContent;
-    }
-    setSiteContent(contentToLoad);
-    localStorage.setItem('siteContent', JSON.stringify(contentToLoad));
+    };
+
+    fetchSiteContent();
 
     const isLoggedIn = localStorage.getItem('isLoggedIn');
     if (isLoggedIn === 'true') {
