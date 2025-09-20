@@ -1,0 +1,254 @@
+{
+  "header": {
+    "navLinks": [
+      {
+        "name": "صفحه اصلی",
+        "href": "#",
+        "content": ""
+      },
+      {
+        "name": "محصولات",
+        "href": "#",
+        "content": "",
+        "sublinks": [
+          {
+            "name": "نرم افزار فروشگاهی",
+            "href": "#",
+            "content": ""
+          },
+          {
+            "name": "نرم افزار صنعتی",
+            "href": "#",
+            "content": ""
+          },
+          {
+            "name": "نرم افزار رستورانی",
+            "href": "#",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "name": "خدمات پشتیبانی",
+        "href": "#",
+        "content": "",
+        "sublinks": [
+          {
+            "name": "پشتیبانی آنلاین",
+            "href": "#",
+            "content": ""
+          },
+          {
+            "name": "مرکز دانلود",
+            "href": "#",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "name": "آموزش",
+        "href": "#",
+        "content": ""
+      },
+      {
+        "name": "آموزشگاه سینتا",
+        "href": "#",
+        "content": ""
+      },
+      {
+        "name": "درباره ما",
+        "href": "#",
+        "content": ""
+      },
+      {
+        "name": "تماس با ما",
+        "href": "#",
+        "content": ""
+      }
+    ]
+  },
+  "hero": {
+    "title": "گروه نرم افزاری سه نیک",
+    "subtitle": "این نام نیک است که می ماند",
+    "description": "امید است ک از تجربه و تخصصمان برای یافتن بهترین نتیجه بهره بگیریم",
+    "cta_primary": "همین الان شروع کنید",
+    "cta_secondary": "پخش ویدئو",
+    "imageUrl": "https://images.unsplash.com/photo-1556740738-b6a63e27c4df?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  "clients": {
+    "title": "مشتریان ما",
+    "subtitle": "مفتخریم بهترین ها ما را انتخاب می کنند"
+  },
+  "features": {
+    "title": "برخی از نرم افزار های سه نیک",
+    "items": [
+      {
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZT0iIzAwOTY4OCI+PHBhdGggc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNMTMuNSAyMWwtLjAxLTcuNWEuNzUuNzUgMCAwMS43NS0uNzVoM2EuNzUuNzUgMCAwMS43NS43NVYyMW0tNC41IDBIMi4yNW0xMS4yNSAwaDguMjVhMi4yNSAyLjI1IDAgMDAtMi4yNS0yLjI1VjUuMjVBMi4yNSAyLjI1IDAgMDAyMC4yNSAzSDMuNzVBMi4yNSAyLjI1IDAgMDAxLjUgNS4yNXYxMy41QTIuMjUgMi4yNSAwIDAwMy43NSAyMW0xMS4yNSAwaC00LjUiIC8+PC9zdmc+",
+        "title": "امکانات نرم افزار فروشگاهی",
+        "points": [
+          "انتقال اطلاعات آفلاین و آنلاین در سطوح مختلف عملیاتی بین شعب صندوق",
+          "اتصال به پنل پیامک اینترنتی و ارسال فاکتور و صورت حساب مشتری به صورت پیامک و لینک"
+        ]
+      },
+      {
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZT0iIzAwOTY4OCI+PHBhdGggc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNMzAuNzUgMjFoMTYuNU00LjUgM2gxNU01LjI1IDN2MThtMTMuNS0xOHYxOE05IDYuNzVoNk05IDExLjI1aDZtLTYgNC41aDZNNC41IDIxdi0yLjI1YTIuMjUgMi4yNSAwIDAxMi4yNS0yLjI1aDlhMi4yNSAyLjI1IDAgMDEyLjI1IDIuMjVWMjEiIC8+PC9zdmc+",
+        "title": "امکانات نرم افزار صنعتی",
+        "points": [
+          "تعریف ساختار حسابها با عمق سه سطح و در هر سطح تا نه رقم کد حساب",
+          "تعریف ساختار تفضیلی های شناور درختی مجزا با عمق سی سطح و تا نه رقم کد تفضیلی"
+        ]
+      },
+      {
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZT0iIzAwOTY4OCI+PHBhdGggc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNMjEuNzUgOC4yNXYtMi4yNWEzLjM3NSAzLjM3NSAwIDAwLTMuMzc1LTMuMzc1SDUuNjI1YTMuMzc1IDMuMzc1IDAgMDAtMy4zNzUgMy4zNzV2Mi4yNW0xOS41IDB2OWEyLjI1IDIuMjUgMCAwMS0yLjI1IDIuMjVIMi4yNWEyLjI1IDIuMjUgMCAwMS0yLjI1LTIuMjV2LTltMTkuNSAwaC0xOS41IiAvPjwvc3ZnPg==",
+        "title": "امکانات نرم افزار رستورانی",
+        "points": [
+          "راحت و سریع بودن کار با سفارش گیر ویندوز",
+          "قابلیت تعریف فرمول ساخت برای محصولات"
+        ]
+      },
+      {
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZT0iIzAwOTY4OCI+PHBhdGggc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNMjIuNSAyMWgxOS41bS0xOC0xOHYxOG0xMC41LTE4djE4bTYtMTMuNVYyMU02Ljc1IDYuNzVoLjc1bS0uNzUgM2guNzVtLS43NSAzdi43NU05IDIxdi0zLjM3NWMwLS42MjEuNTA0LTEuMTI1IDEuMTI1LTEuMTI1aDMuNzVjLjYyMSAwIDEuMTI1LjUwNCAxLjEyNSAxLjEyNVYyMSIgLz48L3N2Zz4=",
+        "title": "امکانات نرم افزار هتلداری",
+        "points": [
+          "امکان تعریف نامحدود اتاق باظرفیت های مختلف",
+          "تعریف انواع مشتری و تعیین نرخ اتاق ها برحسب نوع مشتری"
+        ]
+      }
+    ]
+  },
+  "softwareShowcase": {
+    "title": "نمایی از محیط نرم افزار",
+    "subtitle": "محیطی کاربرپسند و قدرتمند برای مدیریت یکپارچه امور مالی شما.",
+    "slides": [
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1634733620281-9f4c35a6e376?q=80&w=2070&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1611095965942-161b4d3341d3?q=80&w=2070&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1605379399642-870262d3d051?q=80&w=2106&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1633355444132-695d5876cd00?q=80&w=2070&auto=format&fit=crop"
+    ]
+  },
+  "analytics": {
+    "title1": "چرا سیستم یکپارچه مالی سه نیک؟",
+    "paragraph1": "سه نیک با سال ها تجربه در امور مالی و حسابداری بررسی همه جانبه و عمیقی از خواسته ها و نیازهای بازار کسب کار انجام داده است و تجربه حسابداران و حسابرسان ، مدیران مالی وگردانندگان مشاغل ساده را با دانش مهندسان نرم افزار تلفیق کرده تا به ترکیبی جالب و حرفه ای دست پیدا کند. یکی از نکات مثبت در طراحی سیستم سه نیک این است که طراحان سه نیک علاوه بر دانش برنامه نویسی و نرم افزار دارای تجربه چند ساله در زمینه حسابداری و مشاوره مالی می باشند.",
+    "title2": "اهداف سیستم یکپارچه سه نیک",
+    "paragraph2": "گروه نرم افزاری سه نیک با تشکیل تیمی تخصصی و متبحر در زمینه های مالی – نرم افزاری و سخت افزاری مفتخر است تا بهترین مشاوره ها در زمینه مکانیزاسیون سیستم های مالی و اداری به شما ارائه نماید. هماهنگی در این حوزه ها(مالی،نرم افزاری،سخت افزاری) برای مشتریان ما این مزیت را به همراه داشته است تا با کمترین هزینه بیشترین خدمات را دریافت نمایند.تیم قدرتمند سه نیک تمامی الزامات و ابزار لازم را برآورد و سپس با موافقت مشتری عملیات اجرا و استقرار سیستم های مالی را در حداقل زمان ممکن مهیا می سازد.",
+    "cta": "بیشتر بدانید",
+    "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop"
+  },
+  "stats": {
+    "experience": {
+      "value": "6",
+      "label": "سال تجربه"
+    },
+    "customers": {
+      "value": "84",
+      "label": "تعداد مشتریان"
+    },
+    "team": {
+      "value": "5",
+      "label": "نفر تیم"
+    },
+    "satisfaction": {
+      "value": "18",
+      "label": "رضایت مشتری"
+    }
+  },
+  "moreFeatures": {
+    "title": "برخی از امکانات سه نیک",
+    "items": [
+      {
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZT0iIzAwOTY4OCI+PHBhdGggc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNMjIuNSAxOC43NWE2MC4wNyA2MC4wNyAwIDAxMTUuNzk3IDIuMTAxYy43MjcuMTk4IDEuNDUzLS4zNDIgMS40NTMtMS4wOTZWMTguNzVNMzAuNzUgNC41di43NUEuNzUuNzUgMCAwMTMgNmgtLjc1bTAtMHYtLjc1QS43NS43NSAwIDAxMyA0LjVoLjc1bTAtMGguNzVBLjc1Ljc1IDAgMDE1LjI1IDZ2Ljc1bTAtMHYtLjc1QS43NS43NSAwIDAxNS4yNSA0LjVoLjc1bTAtMGguNzVhLjc1Ljc1IDAgMDEuNzUuNzV2Ljc1bTAtMHYtLjc1YS43NS43NSAwIDAxLjc1LS43NWguNzVtMC0waC43NWEuNzUuNzUgMCAwMS43NS43NXYuNzVtMC0wdi0uNzVhLjc1Ljc1IDAgMDEuNzUtLjc1aC43NWEuNzUuNzUgMCAwMS43NS43NXYuNzVtLTYgMTJ2LTYuMzc1YTMuMzc1IDMuMzc1IDAgMDEzLjM3NS0zLjM3NWgxLjVhMy4zNzUgMy4zNzUgMCAwMTMuMzc1IDMuMzc1VjE4Ljc1bS02IDBoNiIgLz48L3N2Zz4=",
+        "title": "امکانات سیستم خرید و فروش",
+        "points": [
+          "امکان ثبت فاکتور فروش با قیمت گذاری های مختلف از قبل تعیین شده",
+          "امکان ثبت دو نوع سند تولید براساس فرمول تولید و بدون فرمول"
+        ]
+      },
+      {
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZT0iIzAwOTY4OCI+PHBhdGggc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNOC4yNSAzVjQuNU00LjUgOC4yNUgzbTE4IDBoLTEuNU00LjUgMTJIM20xOCAwdi0xLjVtLTE1IDMuNzVIM20xOCAwdi0xLjVNOC4yNSAxOS41VjIxTTEyIDN2MS41bTAgMTVWMjFtMy43NS0xOHYxLjVtMCAxNVYyMW0tOS0xLjVoMTAuNWEyLjI1IDIuMjUgMCAwMDIuMjUtMi4yNVY3LjVhMi4yNSAyLjI1IDAgMDAtMi4yNS0yLjI1SDYuNzVBMi4yNSAyLjI1IDAgMDA0LjUgNy41djEwLjVhMi4yNSAyLjI1IDAgMDAyLjI1IDIuMjV6IiAvPjwvc3ZnPg==",
+        "title": "امکانات سیستم تولید",
+        "points": [
+          "تعریف فرمول تولید با دقت بالا",
+          "امکان ثبت دو نوع سند تولید براساس فرمول تولید و بدون فرمول"
+        ]
+      },
+      {
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZT0iIzAwOTY4OCI+PHBhdGggc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNMzAuNzUgMjFoMTYuNU00LjUgM2gxNU01LjI1IDN2MThtMTMuNS0xOHYxOE05IDYuNzVoNi4zNzVhLjc1Ljc1IDAgMDEuNzUuNzV2My43NWEuNzUuNzUgMCAwMS0uNzUuNzVIOSIgLz48L3N2Zz4=",
+        "title": "امکانات انبارداری",
+        "points": [
+          "امکان انبارداری به هر دو روش ادواری و دائمی",
+          "محاسبه موجودی پایان دوره براساس میانگین موزون و لحظه"
+        ]
+      },
+      {
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZT0iIzAwOTY4OCI+PHBhdGggc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNMjIuNSAxOGw2Ljc1IDYuNzUgNC4zMDYgNC4zMDdhMTEuOTUgMTEuOTUgMCAwMTUuODE0LTUuNTE5bDIuNzQtMS4yMm0wIDBsLTUuOTQtMi4yOG01Ljk0IDIuMjhsLTIuMjggNS45NDEiIC8+PC9zdmc+",
+        "title": "امکانات سیستم مالی",
+        "points": [
+          "معرفی سرفصل حسابها در سطح گروه، کل، معین، تفصیلی به همراه دوسطح شناور مرکز هزینه و مرکز پروژه",
+          "امکان محاسبه و ثبت سند سود و زیان به صورت اتوماتیک"
+        ]
+      },
+      {
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZT0iIzAwOTY4OCI+PHBhdGggc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNMTUgOC4yNUg5bTYgM0g5bTMgNmwtMy0zaDEuNWEzIDMgMCAxMDAtNk0yMSAxMmE5IDkgMCAxMS0xOCAwIDkgOSAwIDAxMTggMHoiIC8+PC9zdmc+",
+        "title": "امکانات سیستم حقوق و دستمزد",
+        "points": [
+          "ثبت تمامی اطلاعات پرسنل جهت بایگانی و کارگزینی",
+          "امکان تعریف مزایا و کسورات به تعداد نامحدود به همراه فرمول نویسی"
+        ]
+      },
+      {
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZT0iIzAwOTY4OCI+PHBhdGggc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNMTIgNnYxMm0tMy0yLjgxOGwuODc5LjY1OWMxLjE3MS44NzkgMy4wNy44NzkgNC4yNDIgMCAxLjE3Mi0uODc5IDEuMTcyLTIuMzAzIDAtMy4xODJDMTMuNTM2IDEyLjIxOSAxMi43NjggMTIgMTIgMTJjLS43MjUgMC0xLjQ1LS4yMi0yLjAwMy0uNjU5LTEuMTA2LS44MjYtMS4xMDYtMi4xNTYgMC0yLjk4MkMxMC41NDQgOC4yMTkgMTEuMjcyIDggMTIgOGMuNzI1IDAgMS40NS4yMiAyLjAwMy42NTltLTIuMDAzLjY1OWwyLjAwMy42NTltMCAwbDIuMDAzLjY1OSIgLz48L3N2Zz4=",
+        "title": "امکانات سیستم ارزی",
+        "points": [
+          "امکان گزارش صورتحساب ارزی",
+          "امکان تسعیر ارز و ثبت سند هزینه و درآمدهای حاصل از تسعیر ارزی"
+        ]
+      },
+      {
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZT0iIzAwOTY4OCI+PHBhdGggc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNMjEgMTEuMjV2OC4yNWEyLjI1IDIuMjUgMCAwMS0yLjI1IDIuMjVINS4yNWEyLjI1IDIuMjUgMCAwMS0yLjI1LTIuMjV2LTguMjVNMTIgNC44NzVBMi42MjUgMi42MjUgMCAxMDEyIDEwLjEyNUEyLjYyNSAyLjYyNSAwIDAwMTIgNC44NzV6TTEyIDE1YTIuMjUgMi4yNSAwIDEwMC00LjUgMi4yNSAyLjI1IDAgMDAwIDQuNXoiIC8+PC9zdmc+",
+        "title": "امکانات سیستم خزانه داری",
+        "points": [
+          "امکان چاپ برگه چک پرداختی و فیش واگذاری چک به بانک",
+          "امکان چاپ چک بر روی برگه چک"
+        ]
+      },
+      {
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZT0iIzAwOTY4OCI+PHBhdGggc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNOC4yNSAyMXYtNC44NzVjMC0uNjIxLjUwNC0xLjEyNSAxLjEyNS0xLjEyNWgyLjI1Yy42MjEgMCAxLjEyNS41MDQgMS4xMjUgMS4xMjVWMjFtMCAwaDQuNUEyLjI1IDIuMjUgMCAwMDIxIDE4Ljc1VjE2LjVhMi4yNSAyLjI1IDAgMDAtMi4yNS0yLjI1aC0xLjVtLTMgMGgtM20tMyAwaC0xLjVBMi4yNSAyLjI1IDAgMDAzIDE2LjV2Mi4yNUEyLjI1IDIuMjUgMCAwMDUuMjUgMjFoNC41bS0zLTE1VjUuMjVjMC0uNjIxLjUwNC0xLjEyNSAxLjEyNS0xLjEyNWgyLjI1Yy42MjEgMCAxLjEyNS41MDQgMS4xMjUgMS4xMjVWNiIgLz48L3N2Zz4=",
+        "title": "امکانات سیستم تسهیلات",
+        "points": [
+          "امکان ثبت وام های پرداختی شرکت و یادآوری اقساط وام های پرداختی و دریافتی",
+          "امکان تقسیم سود سال گذشته به سهام داران شرکت براساس معدل حساب سرمایه هر سهامدار"
+        ]
+      }
+    ]
+  },
+  "about": {
+    "title": "درباره سه نیک",
+    "paragraph": "مهندس محمدصادق پاکزاد از سال ۱۳۷۳ در عرصه نرم افزار های حسابداری شروع ب فعالیت کردند و نرم افزار حسابداری امین و آریا را تحت سیستم عامل DOS طراحی و تولید کردند.شرکت آما پردازش ایساتیس نیز در سال 1387 به منظور فعالیت در زمینه تولید نرم افزارهای مالی توسط مهندس محمدصادق پاکزاد تاسیس گردید و راه پر فراز و نشیب رشد و پیشرفت در این عرصه را به منظور کسب تجربه و خدمت به پیشرفت تکنولوژی در کشور با همراهی مدیران و متخصصین علوم فناوری اطلاعات و حسابداری پیموده است. در سال 1401به علت بعضی تغییرات در هیئت مدیره شرکت نام شرکت به آما پردازش فرتاک تغییر کرد و با همان رویکرد روبه جلو ب کار خود ادامه میدهد.",
+    "cta": "بیشتر بدانید",
+    "timeline": [
+      {
+        "year": "۱۳۷۳",
+        "description": "شروع فعالیت با نرم افزارهای حسابداری امین و آریا تحت سیستم عامل DOS."
+      },
+      {
+        "year": "۱۳۸۷",
+        "description": "تاسیس شرکت آما پردازش ایساتیس برای تولید تخصصی نرم افزارهای مالی."
+      },
+      {
+        "year": "۱۴۰۱",
+        "description": "تغییر نام به آما پردازش فرتاک و ادامه مسیر رشد با رویکردی نوین."
+      }
+    ],
+    "imageUrl": "https://cdn.dribbble.com/users/1787323/screenshots/11310813/media/d83f7214713c79a05b38a7c1ad7071e6.png?resize=1200x900&vertical=center"
+  },
+  "footer": {
+    "description": "امید است ک از تجربه و تخصصمان برای یافتن بهترین نتیجه بهره بگیریم",
+    "contact": {
+      "title": "تماس با ما",
+      "phone": "شماره همراه: 09925063800",
+      "email": "ایمیل: Senikesystem@gmail.com"
+    },
+    "copyright": "تمامی حقوق مالکیت معنوی این سایت برای شرکت آما پردازش فرتاک یزد محفوظ است."
+  }
+}
